@@ -1,0 +1,25 @@
+.App .otp_auth .opt__input{
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+    border: none;
+    border-bottom: 2px solid rgba(29, 29, 29, 0.5);
+}
+
+.App .otp_auth .opt__input:focus{
+    border-color: var(--Primary-color);
+}
+
+.form__text h3{
+    color: var(--text-primary);
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-align: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}

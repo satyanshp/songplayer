@@ -1,0 +1,58 @@
+.home__sidemenu_buttons{
+    display: flex;
+    height: 40px;
+    padding-left: 24px;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.home__sidemenu_buttons:hover,.home__sidemenu_buttons.selected{
+    background: #E6F7FF;
+    border-right: 3px solid #1890FF;
+}
+
+.home__sidemenu_buttons:hover h2,.home__sidemenu_buttons.selected h2{
+    color: #1890FF;
+}
+
+.home__sidemenu_buttons img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.home__sidemenu_buttons h2{
+    color: rgba(0, 0, 0, 0.85);
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.home__sidemenu{
+    height: 100%;
+    width: 100%;
+    background: #FFF;
+    box-shadow: -1px 0px 0px 0px rgba(0, 0, 0, 0.05) inset;
+    padding-bottom: 1rem;
+}
+
+.home__sidemenu_credit h1{
+    color: #552583;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+    margin-block: 32px;
+}
+
+.home__sidemenu_menu{
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    justify-content: space-between;
+}

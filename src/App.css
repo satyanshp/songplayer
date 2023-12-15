@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+.form__text{
+  max-width: 454px;
+  width: 80%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__text h1{
+  color: var(--Primary-Color);
+  font-family: Roboto;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 100%;
+}
+
+.form__text p{
+  color: var(--text-primary);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 100%;
+}
+
+.form__text .form_button,.form__text .form_button:hover{
+  border-radius: 12px;
+  background: var(--Primary-Color);
+  width: 100%;
+  min-height: 50px;
+  color: var(--text-white);
+  text-transform: capitalize;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+}
